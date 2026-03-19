@@ -21,6 +21,8 @@ spec:
         configs:
           params:
             server.insecure: true
+          secret:
+            argocdServerAdminPassword: "$2b$12$QFfBa6BwnB6wE7YE1xToouXbAkKsgn8aPjTS890r7eiPO1GYoheOy"
         dex:
           enabled: false
         notifications:
