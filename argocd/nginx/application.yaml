@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/gjed/workshop-2026-k8s.git
     targetRevision: main
-    path: apps/nginx
+    path: argocd/nginx
   destination:
     server: https://kubernetes.default.svc
     namespace: nginx
